@@ -1,12 +1,23 @@
 Project 1: Tokenizer
 ====================
-# Instructions:
 
-You should document your tokenizer in this file.
+This program is designed to recieve one or multiple lines of words/strings and
+store the information in a linked list structure. Once stored the program will
+continue to print information about the data entered, it will also store the
+data in tokens (identified at the words in a string).
 
-This file is written in the refreshingly simple `markdown` text
-formatting language.
+Some of the functions inlude
+-finding first letter of first word
+-finding last letter of first word
+-counting how many words in string
+-creating a copy of the string (with set length or not)
+-tokenizing all the words in the string
 
-To learn about text formatting using markdown, we encourage you to examine 
- - [../README.md](../README.md)
- - the online [Markdown Guide](https://www.markdownguide.org/).
+The program is meant to be ran in a manner to utilize
+the program not find bugs or break the program.
+
+The program will not handle
+-the terminating char in the same line as entered data/string
+-choosing a number heigher than the amount of strings entered
+-entering a char when asking for number
+-not entering any strings
